@@ -1,8 +1,14 @@
+
 #include<stdio.h>
 void main()
 {
-	int n = 5,s = n*(n+1)/2;
-
-	printf("sum of first %d natural numbers is %d",n,s);
-
+	int a = 20,b = 10; 
+	
+	printf("%d > %d -->%d\n",a,b,a>b);
+	printf("%d >= %d -->%d\n",a,b,a>=b);
+	printf("%d < %d -->%d\n",a,b,a<b);
+	printf("%d <= %d -->%d\n",a,b,a<=b);
+	printf("%d == %d -->%d\n",a,b,a==b);
+	printf("%d != %d -->%d",a,b,a!=b);
 }
+
